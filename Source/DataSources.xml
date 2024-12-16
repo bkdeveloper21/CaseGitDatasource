@@ -1100,7 +1100,7 @@
   <Columns>
     <Column id="1" name="CF_ITEMNUMMER">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="12"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
         <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="4"/>
@@ -1113,6 +1113,7 @@
         <_Whole id="182" val="5"/>
         <_Negative id="192"/>
         <_FieldPhysical DB_DEF_VAL_U="0" Name="CF_ITEMNUMMER" PIC_U="5" Size="4" SqlType="NUMBER(4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
     <Column id="2" name="CF_CATEGORIE">
