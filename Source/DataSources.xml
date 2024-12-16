@@ -48,7 +48,6 @@
  <DataSourceRepository>
   <DataObjects>
  
- 
 <DataObject PhysicalName="AKTUELE_POSITIES" Resident="N" UniqueISNConvState="12" data_source="ORACLE-SEP" id="1" name="AKTUELE_POSITIES">
 
   <Encrypt val="N"/>
@@ -74,7 +73,8 @@
   <Columns>
     <Column id="1" name="AP_REF_RELATIE">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="5"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="4"/>
         <Size id="174" val="4"/>
@@ -82,12 +82,16 @@
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_REF_RELATIE"/>
         <Type id="179" val="NUMBER(9)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_REF_RELATIE" PIC_U="9" Size="4" SqlType="NUMBER(9)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_REF_RELATIE" PIC_U="5" Size="4" SqlType="NUMBER(9)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="2" name="AP_RELATIENR">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="5"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="4"/>
         <Size id="174" val="4"/>
@@ -95,97 +99,109 @@
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_RELATIENR"/>
         <Type id="179" val="NUMBER(9)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_RELATIENR" PIC_U="9" Size="4" SqlType="NUMBER(9)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_RELATIENR" PIC_U="5" Size="4" SqlType="NUMBER(9)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="3" name="AP_REKENING_SOORT">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="12"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="4"/>
-        <Size id="174" val="2"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_REKENING_SOORT"/>
         <Type id="179" val="NUMBER(4)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_REKENING_SOORT" PIC_U="4" Size="2" SqlType="NUMBER(4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_REKENING_SOORT" PIC_U="5" Size="4" SqlType="NUMBER(4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="4" name="AP_REKENINGNR">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="2" id="1" obj="8"/>
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="10"/>
         <DatabaseDefault id="171" valUnicode="' '"/>
         <StoredAs id="173" val="3"/>
-        <Size id="174" val="12"/>
+        <Size id="174" val="10"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_REKENINGNR"/>
         <Type id="179" val="VARCHAR2(12)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="AP_REKENINGNR" PIC_U="U12" Size="12" SqlType="VARCHAR2(12)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="AP_REKENINGNR" PIC_U="10" Size="10" SqlType="VARCHAR2(12)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="5" name="AP_REKENING_MUNTS">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="2" id="1" obj="14"/>
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="10"/>
         <DatabaseDefault id="171" valUnicode="' '"/>
         <StoredAs id="173" val="3"/>
-        <Size id="174" val="4"/>
+        <Size id="174" val="10"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_REKENING_MUNTS"/>
         <Type id="179" val="VARCHAR2(4)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="AP_REKENING_MUNTS" PIC_U="U4" Size="4" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="AP_REKENING_MUNTS" PIC_U="10" Size="10" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="6" name="AP_REF_SYMBOOL">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="2" id="1" obj="3"/>
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="10"/>
         <DatabaseDefault id="171" valUnicode="' '"/>
         <StoredAs id="173" val="3"/>
-        <Size id="174" val="22"/>
+        <Size id="174" val="10"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_REF_SYMBOOL"/>
         <Type id="179" val="VARCHAR2(22)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="AP_REF_SYMBOOL" PIC_U="U22" Size="22" SqlType="VARCHAR2(22)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="AP_REF_SYMBOOL" PIC_U="10" Size="10" SqlType="VARCHAR2(22)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="7" name="AP_SYMBOOL">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="2" id="1" obj="3"/>
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="10"/>
         <DatabaseDefault id="171" valUnicode="' '"/>
         <StoredAs id="173" val="3"/>
-        <Size id="174" val="22"/>
+        <Size id="174" val="10"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_SYMBOOL"/>
         <Type id="179" val="VARCHAR2(22)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="AP_SYMBOOL" PIC_U="U22" Size="22" SqlType="VARCHAR2(22)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="AP_SYMBOOL" PIC_U="10" Size="10" SqlType="VARCHAR2(22)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="8" name="AP_OPTIETYPE">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="2" id="1" obj="4"/>
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="10"/>
         <DatabaseDefault id="171" valUnicode="' '"/>
         <StoredAs id="173" val="3"/>
-        <Size id="174" val="4"/>
+        <Size id="174" val="10"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_OPTIETYPE"/>
         <Type id="179" val="VARCHAR2(4)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="AP_OPTIETYPE" PIC_U="U4" Size="4" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="AP_OPTIETYPE" PIC_U="10" Size="10" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="9" name="AP_EXPIRATIEDATUM">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_DATE" comp="2" id="1" obj="36"/>
+        <Model attr_obj="FIELD_DATE" id="1"/>
         <DatabaseDefault id="171" valUnicode="'00000000'"/>
         <StoredAs id="173" val="19"/>
         <Size id="174" val="8"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_EXPIRATIEDATUM"/>
         <Type id="179" val="CHAR(8)"/>
-        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="AP_EXPIRATIEDATUM" PIC_U="DD/MM/YYYYZ" Size="8" SqlType="CHAR(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="AP_EXPIRATIEDATUM" PIC_U="##/##/####" Size="8" SqlType="CHAR(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="10" name="AP_EXERCISEPRIJS">
@@ -208,109 +224,145 @@
     </Column>
     <Column id="11" name="AP_SALDO_POSITIE">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="301992479"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <StoredAs id="173" val="12"/>
-        <Size id="174" val="32"/>
+        <Size id="174" val="5"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_SALDO_POSITIE"/>
-        <_FieldPhysical Name="AP_SALDO_POSITIE" PIC_U="N20.10" Size="32" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical Name="AP_SALDO_POSITIE" PIC_U="5" Size="5" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="12" name="AP_SALDO_TOTAALL_S">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="301992479"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <StoredAs id="173" val="12"/>
-        <Size id="174" val="32"/>
+        <Size id="174" val="5"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_SALDO_TOTAALL_S"/>
-        <_FieldPhysical Name="AP_SALDO_TOTAALL_S" PIC_U="N20.10" Size="32" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical Name="AP_SALDO_TOTAALL_S" PIC_U="5" Size="5" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="13" name="AP_HIST_WRD_POSCL">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="20"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_HIST_WRD_POSCL"/>
         <Type id="179" val="NUMBER(15,4)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_HIST_WRD_POSCL" PIC_U="N11.4" Size="8" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_HIST_WRD_POSCL" PIC_U="5" Size="4" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="14" name="AP_HIST_WRD_POSBE">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="20"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_HIST_WRD_POSBE"/>
         <Type id="179" val="NUMBER(15,4)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_HIST_WRD_POSBE" PIC_U="N11.4" Size="8" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_HIST_WRD_POSBE" PIC_U="5" Size="4" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="15" name="AP_HIST_WRD_TOTCL">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="20"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_HIST_WRD_TOTCL"/>
         <Type id="179" val="NUMBER(15,4)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_HIST_WRD_TOTCL" PIC_U="N11.4" Size="8" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_HIST_WRD_TOTCL" PIC_U="5" Size="4" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="16" name="AP_HIST_WRD_TOTBE">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="20"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_HIST_WRD_TOTBE"/>
         <Type id="179" val="NUMBER(15,4)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_HIST_WRD_TOTBE" PIC_U="N11.4" Size="8" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_HIST_WRD_TOTBE" PIC_U="5" Size="4" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="17" name="AP_BI_TYPE">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="12"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="4"/>
-        <Size id="174" val="2"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_BI_TYPE"/>
         <Type id="179" val="NUMBER(4)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_BI_TYPE" PIC_U="4" Size="2" SqlType="NUMBER(4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_BI_TYPE" PIC_U="5" Size="4" SqlType="NUMBER(4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="18" name="AP_SLD_LOSBAAR_MARG">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="301992479"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <StoredAs id="173" val="12"/>
-        <Size id="174" val="32"/>
+        <Size id="174" val="5"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_SLD_LOSBAAR_MARG"/>
-        <_FieldPhysical Name="AP_SLD_LOSBAAR_MARG" PIC_U="N20.10" Size="32" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical Name="AP_SLD_LOSBAAR_MARG" PIC_U="5" Size="5" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="19" name="AP_IN_COVER">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="301992479"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <NullValue id="167" val="0"/>
         <StoredAs id="173" val="12"/>
-        <Size id="174" val="32"/>
+        <Size id="174" val="5"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_IN_COVER"/>
-        <_FieldPhysical Name="AP_IN_COVER" PIC_U="N20.10" Size="32" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical Name="AP_IN_COVER" PIC_U="5" Size="5" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="20" name="AP_IN_COVER_USED">
@@ -333,26 +385,34 @@
     </Column>
     <Column id="21" name="AP_IN_COLLATERAL">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="301992479"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <NullValue id="167" val="0"/>
         <StoredAs id="173" val="12"/>
-        <Size id="174" val="32"/>
+        <Size id="174" val="5"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_IN_COLLATERAL"/>
-        <_FieldPhysical Name="AP_IN_COLLATERAL" PIC_U="N20.10" Size="32" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical Name="AP_IN_COLLATERAL" PIC_U="5" Size="5" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="22" name="AP_TEGENWAARDE_BASIS">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="20"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_TEGENWAARDE_BASIS"/>
         <Type id="179" val="NUMBER(15,4)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_TEGENWAARDE_BASIS" PIC_U="N11.4" Size="8" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_TEGENWAARDE_BASIS" PIC_U="5" Size="4" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="23" name="AP_EXPORT">
@@ -375,22 +435,30 @@
     </Column>
     <Column id="24" name="AP_POSITIE_LONG">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="301992479"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="1"/>
         <StoredAs id="173" val="12"/>
-        <Size id="174" val="32"/>
+        <Size id="174" val="1"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_POSITIE_LONG"/>
-        <_FieldPhysical Name="AP_POSITIE_LONG" PIC_U="N20.10" Size="32" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="1"/>
+        <_Negative id="192"/>
+        <_FieldPhysical Name="AP_POSITIE_LONG" PIC_U="1" Size="1" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="25" name="AP_POSITIE_SHORT">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="301992479"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <StoredAs id="173" val="12"/>
-        <Size id="174" val="32"/>
+        <Size id="174" val="5"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_POSITIE_SHORT"/>
-        <_FieldPhysical Name="AP_POSITIE_SHORT" PIC_U="N20.10" Size="32" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical Name="AP_POSITIE_SHORT" PIC_U="5" Size="5" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="12" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="26" name="AP_COLLATERAL_USED">
@@ -413,7 +481,8 @@
     </Column>
     <Column id="27" name="AP_WEGINGSFACTOR">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="15"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="6"/>
         <Size id="174" val="4"/>
@@ -421,12 +490,16 @@
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_WEGINGSFACTOR"/>
         <Type id="179" val="NUMBER(6,3)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_WEGINGSFACTOR" PIC_U="3.3%" Size="4" SqlType="NUMBER(6,3)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_WEGINGSFACTOR" PIC_U="5" Size="4" SqlType="NUMBER(6,3)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="28" name="AP_TRANSNR_BOEKDATUM">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="9"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="4"/>
         <Size id="174" val="4"/>
@@ -434,24 +507,28 @@
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_TRANSNR_BOEKDATUM"/>
         <Type id="179" val="NUMBER(9)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_TRANSNR_BOEKDATUM" PIC_U="9" Size="4" SqlType="NUMBER(9)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_TRANSNR_BOEKDATUM" PIC_U="5" Size="4" SqlType="NUMBER(9)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="29" name="AP_BOEKDATUM">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_DATE" comp="2" id="1" obj="36"/>
+        <Model attr_obj="FIELD_DATE" id="1"/>
         <DatabaseDefault id="171" valUnicode="'00000000'"/>
         <StoredAs id="173" val="19"/>
         <Size id="174" val="8"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_BOEKDATUM"/>
         <Type id="179" val="CHAR(8)"/>
-        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="AP_BOEKDATUM" PIC_U="DD/MM/YYYYZ" Size="8" SqlType="CHAR(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="AP_BOEKDATUM" PIC_U="##/##/####" Size="8" SqlType="CHAR(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="30" name="AP_TRANSNR_TRANSDATUM">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="9"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="4"/>
         <Size id="174" val="4"/>
@@ -459,24 +536,28 @@
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_TRANSNR_TRANSDATUM"/>
         <Type id="179" val="NUMBER(9)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_TRANSNR_TRANSDATUM" PIC_U="9" Size="4" SqlType="NUMBER(9)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_TRANSNR_TRANSDATUM" PIC_U="5" Size="4" SqlType="NUMBER(9)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="31" name="AP_TRANSDATUM">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_DATE" comp="2" id="1" obj="36"/>
+        <Model attr_obj="FIELD_DATE" id="1"/>
         <DatabaseDefault id="171" valUnicode="'00000000'"/>
         <StoredAs id="173" val="19"/>
         <Size id="174" val="8"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_TRANSDATUM"/>
         <Type id="179" val="CHAR(8)"/>
-        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="AP_TRANSDATUM" PIC_U="DD/MM/YYYYZ" Size="8" SqlType="CHAR(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="AP_TRANSDATUM" PIC_U="##/##/####" Size="8" SqlType="CHAR(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="32" name="AP_TRANSNR_VALUTADATUM">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="9"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="4"/>
         <Size id="174" val="4"/>
@@ -484,148 +565,187 @@
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_TRANSNR_VALUTADATUM"/>
         <Type id="179" val="NUMBER(9)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_TRANSNR_VALUTADATUM" PIC_U="9" Size="4" SqlType="NUMBER(9)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_TRANSNR_VALUTADATUM" PIC_U="5" Size="4" SqlType="NUMBER(9)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="33" name="AP_VALUTADATUM">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_DATE" comp="2" id="1" obj="36"/>
+        <Model attr_obj="FIELD_DATE" id="1"/>
         <DatabaseDefault id="171" valUnicode="'00000000'"/>
         <StoredAs id="173" val="19"/>
         <Size id="174" val="8"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_VALUTADATUM"/>
         <Type id="179" val="CHAR(8)"/>
-        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="AP_VALUTADATUM" PIC_U="DD/MM/YYYYZ" Size="8" SqlType="CHAR(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="AP_VALUTADATUM" PIC_U="##/##/####" Size="8" SqlType="CHAR(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="34" name="AP_YTD_WRD_POSCL">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="20"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <NullAllowed id="166"/>
         <NullValue id="167" val="0"/>
         <NullDisplay id="168"/>
         <NullDefault id="169"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_YTD_WRD_POSCL"/>
         <Type id="179" val="NUMBER(15,4)"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_YTD_WRD_POSCL" PIC_U="N11.4" Size="8" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_YTD_WRD_POSCL" PIC_U="5" Size="4" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="35" name="AP_YTD_WRD_POSBE">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="20"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <NullAllowed id="166"/>
         <NullValue id="167" val="0"/>
         <NullDisplay id="168"/>
         <NullDefault id="169"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_YTD_WRD_POSBE"/>
         <Type id="179" val="NUMBER(15,4)"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_YTD_WRD_POSBE" PIC_U="N11.4" Size="8" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_YTD_WRD_POSBE" PIC_U="5" Size="4" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="36" name="AP_YTD_WRD_TOTCL">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="20"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <NullAllowed id="166"/>
         <NullValue id="167" val="0"/>
         <NullDisplay id="168"/>
         <NullDefault id="169"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_YTD_WRD_TOTCL"/>
         <Type id="179" val="NUMBER(15,4)"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_YTD_WRD_TOTCL" PIC_U="N11.4" Size="8" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_YTD_WRD_TOTCL" PIC_U="5" Size="4" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="37" name="AP_YTD_WRD_TOTBE">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="20"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <NullAllowed id="166"/>
         <NullValue id="167" val="0"/>
         <NullDisplay id="168"/>
         <NullDefault id="169"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="AP_YTD_WRD_TOTBE"/>
         <Type id="179" val="NUMBER(15,4)"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_YTD_WRD_TOTBE" PIC_U="N11.4" Size="8" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_YTD_WRD_TOTBE" PIC_U="5" Size="4" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="38" name="AP_RE_ID">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="884"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_RE_ID"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_RE_ID" PIC_U="15" Size="8" SqlType="NUMBER(15)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_FieldPhysical Name="AP_RE_ID" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="39" name="AP_BE_VOLGNUMMER">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="2543"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <NullAllowed id="166" val="Y"/>
         <NullDefault id="169" val="Y"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_BE_VOLGNUMMER"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
         <_Flip id="194"/>
-        <_FieldPhysical Name="AP_BE_VOLGNUMMER" PIC_U="15" Size="8" SqlType="NUMBER(15)" allowed_null="Y" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_FieldPhysical Name="AP_BE_VOLGNUMMER" PIC_U="5" Size="4" allowed_null="Y" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="40" name="AP_TR_VOLGNUMMER_BOEKDAT">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="899"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_TR_VOLGNUMMER_BOEKDAT"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_TR_VOLGNUMMER_BOEKDAT" PIC_U="15" Size="8" SqlType="NUMBER(15)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_FieldPhysical Name="AP_TR_VOLGNUMMER_BOEKDAT" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="41" name="AP_TR_VOLGNUMMER_TRANSDAT">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="899"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_TR_VOLGNUMMER_TRANSDAT"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_TR_VOLGNUMMER_TRANSDAT" PIC_U="15" Size="8" SqlType="NUMBER(15)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_FieldPhysical Name="AP_TR_VOLGNUMMER_TRANSDAT" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="42" name="AP_TR_VOLGNUMMER_VALUTADAT">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="899"/>
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="AP_TR_VOLGNUMMER_VALUTADAT"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="AP_TR_VOLGNUMMER_VALUTADAT" PIC_U="15" Size="8" SqlType="NUMBER(15)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_FieldPhysical Name="AP_TR_VOLGNUMMER_VALUTADAT" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
   </Columns>
@@ -648,27 +768,27 @@
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="2"/>
+          <Size val="4"/>
           <Column val="3"/>
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="12"/>
+          <Size val="10"/>
           <Column val="4"/>
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="4"/>
+          <Size val="10"/>
           <Column val="5"/>
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="22"/>
+          <Size val="10"/>
           <Column val="7"/>
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="4"/>
+          <Size val="10"/>
           <Column val="8"/>
           <Order val="A"/>
         </Segment>
@@ -683,7 +803,7 @@
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="32"/>
+          <Size val="5"/>
           <Column val="11"/>
           <Order val="A"/>
         </Segment>
@@ -701,12 +821,12 @@
       <Primary val="N"/>
       <Segments>
         <Segment>
-          <Size val="22"/>
+          <Size val="10"/>
           <Column val="7"/>
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="4"/>
+          <Size val="10"/>
           <Column val="8"/>
           <Order val="A"/>
         </Segment>
@@ -726,17 +846,17 @@
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="2"/>
+          <Size val="4"/>
           <Column val="3"/>
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="4"/>
+          <Size val="10"/>
           <Column val="5"/>
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="12"/>
+          <Size val="10"/>
           <Column val="4"/>
           <Order val="A"/>
         </Segment>
@@ -754,7 +874,7 @@
       <Primary val="N"/>
       <Segments>
         <Segment>
-          <Size val="22"/>
+          <Size val="10"/>
           <Column val="6"/>
           <Order val="A"/>
         </Segment>
@@ -764,17 +884,17 @@
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="2"/>
+          <Size val="4"/>
           <Column val="3"/>
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="4"/>
+          <Size val="10"/>
           <Column val="5"/>
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="12"/>
+          <Size val="10"/>
           <Column val="4"/>
           <Order val="A"/>
         </Segment>
@@ -797,7 +917,7 @@
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="2"/>
+          <Size val="4"/>
           <Column val="17"/>
           <Order val="A"/>
         </Segment>
@@ -839,53 +959,60 @@
     <Column id="1" name="RT_USERID">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" comp="2" id="1" obj="16"/>
+        <Picture id="157" valUnicode="20"/>
         <DatabaseDefault id="171" valUnicode="' '"/>
         <StoredAs id="173" val="3"/>
-        <Size id="174" val="30"/>
+        <Size id="174" val="20"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="RT_USERID"/>
         <Type id="179" val="VARCHAR2(30)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="RT_USERID" PIC_U="U30" Size="30" SqlType="VARCHAR2(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="RT_USERID" PIC_U="20" Size="20" SqlType="VARCHAR2(30)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="2" name="RT_TABELSOORT">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" comp="2" id="1" obj="13"/>
+        <Picture id="157" valUnicode="10"/>
         <DatabaseDefault id="171" valUnicode="' '"/>
         <StoredAs id="173" val="3"/>
-        <Size id="174" val="4"/>
+        <Size id="174" val="10"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="RT_TABELSOORT"/>
         <Type id="179" val="VARCHAR2(4)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="RT_TABELSOORT" PIC_U="U4" Size="4" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="RT_TABELSOORT" PIC_U="10" Size="10" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="3" name="RT_TABELNUMMER">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="12"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="4"/>
-        <Size id="174" val="2"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="RT_TABELNUMMER"/>
         <Type id="179" val="NUMBER(4)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="RT_TABELNUMMER" PIC_U="4" Size="2" SqlType="NUMBER(4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="RT_TABELNUMMER" PIC_U="5" Size="4" SqlType="NUMBER(4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="4" name="RT_TABELSYMBOOL">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" comp="2" id="1" obj="13"/>
+        <Picture id="157" valUnicode="10"/>
         <DatabaseDefault id="171" valUnicode="' '"/>
         <StoredAs id="173" val="3"/>
-        <Size id="174" val="4"/>
+        <Size id="174" val="10"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="RT_TABELSYMBOOL"/>
         <Type id="179" val="VARCHAR2(4)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="RT_TABELSYMBOOL" PIC_U="U4" Size="4" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="RT_TABELSYMBOOL" PIC_U="10" Size="10" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="5" name="RT_TOEGESTAAN">
@@ -922,22 +1049,22 @@
       <Primary val="N"/>
       <Segments>
         <Segment>
-          <Size val="30"/>
+          <Size val="20"/>
           <Column val="1"/>
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="4"/>
+          <Size val="10"/>
           <Column val="2"/>
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="2"/>
+          <Size val="4"/>
           <Column val="3"/>
           <Order val="A"/>
         </Segment>
         <Segment>
-          <Size val="4"/>
+          <Size val="10"/>
           <Column val="4"/>
           <Order val="A"/>
         </Segment>
@@ -974,78 +1101,93 @@
     <Column id="1" name="CF_ITEMNUMMER">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="12"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="4"/>
-        <Size id="174" val="2"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="CF_ITEMNUMMER"/>
         <Type id="179" val="NUMBER(4)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="CF_ITEMNUMMER" PIC_U="4" Size="2" SqlType="NUMBER(4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="CF_ITEMNUMMER" PIC_U="5" Size="4" SqlType="NUMBER(4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="2" name="CF_CATEGORIE">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" comp="2" id="1" obj="13"/>
+        <Picture id="157" valUnicode="10"/>
         <DatabaseDefault id="171" valUnicode="' '"/>
         <StoredAs id="173" val="3"/>
-        <Size id="174" val="4"/>
+        <Size id="174" val="10"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="CF_CATEGORIE"/>
         <Type id="179" val="VARCHAR2(4)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="CF_CATEGORIE" PIC_U="U4" Size="4" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="CF_CATEGORIE" PIC_U="10" Size="10" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="3" name="CF_BEREKENING">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" comp="2" id="1" obj="13"/>
+        <Picture id="157" valUnicode="10"/>
         <DatabaseDefault id="171" valUnicode="' '"/>
         <StoredAs id="173" val="3"/>
-        <Size id="174" val="4"/>
+        <Size id="174" val="10"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="CF_BEREKENING"/>
         <Type id="179" val="VARCHAR2(4)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="CF_BEREKENING" PIC_U="U4" Size="4" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="CF_BEREKENING" PIC_U="10" Size="10" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="4" name="CF_MUNTSOORT">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" comp="2" id="1" obj="14"/>
+        <Picture id="157" valUnicode="10"/>
         <DatabaseDefault id="171" valUnicode="' '"/>
         <StoredAs id="173" val="3"/>
-        <Size id="174" val="4"/>
+        <Size id="174" val="10"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="CF_MUNTSOORT"/>
         <Type id="179" val="VARCHAR2(4)"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="' '" Name="CF_MUNTSOORT" PIC_U="U4" Size="4" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="' '" Name="CF_MUNTSOORT" PIC_U="10" Size="10" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="5" name="CF_BEDRAG_PERCENTAGE">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="20"/>
+        <Picture id="157" valUnicode="5"/>
         <DatabaseDefault id="171" valUnicode="0"/>
         <StoredAs id="173" val="6"/>
-        <Size id="174" val="8"/>
+        <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="CF_BEDRAG_PERCENTAGE"/>
         <Type id="179" val="NUMBER(15,4)"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="CF_BEDRAG_PERCENTAGE" PIC_U="N11.4" Size="8" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="CF_BEDRAG_PERCENTAGE" PIC_U="5" Size="4" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="6" name="CF_MINIMUM_BEDRAG">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_NUMERIC" comp="2" id="1" obj="20"/>
+        <Picture id="157" valUnicode="10"/>
         <StoredAs id="173" val="6"/>
         <Size id="174" val="8"/>
         <Definition id="175" val="2"/>
         <UpdateStyle id="176" val="A"/>
         <DbColumnName id="178" val="CF_MINIMUM_BEDRAG"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="10"/>
+        <_Negative id="192"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="CF_MINIMUM_BEDRAG" PIC_U="N11.4" Size="8" SqlType="NUMBER(15,4)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_FieldPhysical Name="CF_MINIMUM_BEDRAG" PIC_U="10" Size="8" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
       </PropertyList>
     </Column>
   </Columns>
@@ -1063,7 +1205,7 @@
       <Primary val="N"/>
       <Segments>
         <Segment>
-          <Size val="2"/>
+          <Size val="4"/>
           <Column val="1"/>
           <Order val="A"/>
         </Segment>
